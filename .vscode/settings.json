@@ -1,0 +1,61 @@
+{
+  "terminal.integrated.shell.windows": "E:\\Program Files\\Users\\Git\\bin\\bash.exe",
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.wordWrap": "on",
+  "workbench.editor.enablePreview": false,
+  "files.associations": {"*html": "html"},
+  "emmet.triggerExpansionOnTab": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSave": "off",
+  "editor.minimap.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Community Material Theme Palenight",
+  "liveServer.settings.ChromeDebuggingAttachment": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+  "emojisense.languages": {
+      
+
+      "markdown": true,
+      "plaintext": {
+          "markupCompletionsEnabled": false,
+          "emojiDecoratorsEnabled": true,
+      },
+      "scminput": true,
+      "git-commit": true
+  },
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash",
+          "path": "E:\\Program Files\\Users\\Git\\bin\\bash.exe",
+      },
+      "Windows PowerShell": {
+          "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.automationProfile.windows": {
+     "path": "E:\\Program Files\\Users\\Git\\bin\\bash.exe",
+     "icon": "terminal-bash",
+  },
+  "emmet.preferences": {
+      
+  },
+}

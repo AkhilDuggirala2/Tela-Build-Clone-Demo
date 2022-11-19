@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  max-width: 1700px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo{
+  position: absolute;
+  width: 100%;
+  height: 25vh;
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+.header-logo img{
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header-Globel{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -1200px;
+  border-radius: 50px;
+  padding: 20px 55px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.fa-globe{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: -30px;
+}
+
+.header-Globel h4{
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.header-Globel:hover{
+  background-color: #ededed;
+}
+
+/* banner */
+.banner{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.banner h1{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  margin-top: 100px;
+  margin-left: -300px;
+}
+
+.banner label{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: -250px;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.banner select{
+  position: absolute;
+  display: flex;
+  margin-top: 280px;
+  margin-left: -100px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 300px;
+}
+
+.banner-language label{
+  position: absolute;
+  display: block;
+  align-items: center;
+  margin-top: 180px;
+  margin-left: -180px;
+}
+
+.banner-language select{
+  position: absolute;
+  display: flex;
+  margin-top: 220px;
+  margin-left: -200px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 300px;
+}
+
+.banner-inputform{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 350px;
+  margin-left: -30px;
+}
+
+.banner-inputform label{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 220px;
+}
+
+.banner-inputform input[type="fname"]{
+  position: absolute;
+  margin-top: 300px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin-left: -70px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.banner-inputform .lname{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 400px;
+}
+
+.banner-inputform input[type="lname1"]{
+  position: absolute;
+  margin-top: 480px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin-left: -70px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.banner-inputform .email{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 570px;
+  margin-left: -240px;
+}
+
+.banner-inputform input[type="email"]{
+  position: absolute;
+  margin-top: 650px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin-left: -70px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.banner-inputform .password{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 750px;
+  margin-left: -240px;
+}
+
+.banner-inputform input[type="password"]{
+  position: absolute;
+  margin-top: 830px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin-left: -70px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.banner-account1{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: purple;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 5px 20px;
+  width: 300px;
+  margin-top: 980px;
+  margin-left: -80px;
+}
+
+.banner-account1 a{
+  
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  width: 280px;
+}
+
+.banner-account1:hover{
+  background-color: #ededed;
+  
+}
+
+.line1{
+  position: absolute;
+  z-index: 100;
+  width: 20%;
+  height: 2px;
+  background-color: lightgray;
+  margin-top: 1500px;
+  margin-left: -110px;
+}
+
+.para1{
+  position: absolute;
+  z-index: 100;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 1500px;
+  margin-left: -110px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: gray;
+  padding: 10px 10px;
+}
+
+.banner-signin1{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-top: 1700px;
+  margin-left: -120px;
+  cursor: pointer;
+}
+
+.banner-signin1 a{
+  border: 2px solid black;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 50px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner-signin1 a:hover{
+  background-color: black;
+  color: white;
+}
+
+/* footer */
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  margin-top: 1100px;
+  margin-left: 470px;
+}
+
+.footer-links li{
+  display: inline-block;
+  margin-left: 20px;
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+}
